@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneaker.pk</title>
+  <link rel="icon" href="images/hero-image.png" type="image">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script defer src="app.js"></script>
+  <script defer src="bootstrap.js"></script>
+</head>
+
+<body>
+  <section class="top-section container-lg">
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-lg navbar-main-styling">
+        <h2>SNEAKERS.PK</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 nav-search-bar" type="search" placeholder="Search" aria-label="Search"
+              disabled>
+            <button class="btn btn-outline-light">Buy</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <header class="hero-section row">
+      <div class="hero-image-title col-lg-6 col-md-6 col-sm-6">
+        <h1>FIND YOUR DREAM SNEAKERS</h1>
+        <br>
+        <button class="hero-sec-btn"><a href="#browse-our-collection">Browse our collection</a></button>
+      </div>
+      <div class="hero-image-wrapper col-lg-6 col-md-6 col-sm-6">
+        <img src="images/hero-image.png" alt="">
+      </div>
+    </header>
+  </section>
+  <main class="main-area container-lg mb-5">
+    <div class="main-area-heading mt-5" id="browse-our-collection">
+      <h2>CHOOSE FROM TOP BRANDS</h2>
+    </div>
+    <div class="companies row mt-5 mb-5">
+      <span id="nike" class="company-card col-lg-2 col-md-5 col-sm-5"><img src="images/company-nike.png" alt=""></span>
+      <span id="adidas" class="company-card col-lg-2 col-md-5 col-sm-5"><img src="images/company-adidas.png"
+          alt=""></span>
+      <span id="puma" class="company-card col-lg-2 col-md-5 col-sm-5"><img src="images/company-puma.png" alt=""></span>
+      <span id="reebok" class="company-card col-lg-2 col-md-5 col-sm-5"><img src="images/company-reebok.png"
+          alt=""></span>
+    </div>
+    <div id="product-display-area" class="row mb-4 card-container-area">
+    </div>
+  </main>
+  <footer class="footer container-lg">
+    <h4>© 2023 SNEAKERS.PK BY OWAIS RAZA</h4>
+  </footer>
+</body>
+
+</html>
